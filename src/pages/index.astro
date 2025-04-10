@@ -6,12 +6,17 @@ import '../styles/global.css'
   <head>
     <title>Random User Generator</title>
   </head>
-  <body>
-    <h1>Random User Generator</h1>
-    <div id="user-container"></div>
-    <button id="new-user" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Get New User</button>
-		
+  <body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-6 rounded-xl shadow-lg max-w-sm w-full text-center">
+      <div id="user-container"></div>
+
+      <button id="new-user" 
+        class="mt-4 bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700">
+        Get New User
+      </button>
+    </div>
 
     <script type="module" src="/script.js"></script>
   </body>
 </html>
+
